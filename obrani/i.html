@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>obrani</title>
+</head>
+<body>
+  
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up-circle-fill"></i></button>
+  <form>
+<!-- --------------menu--------------------- -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img class="iconObrani" src="imgs/obrani-removebg-preview.png" alt="">
+      <a class="navbar-brand" href="#" >obrani</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <form class="d-flex" role="search">
+            <input class="abaPesquisar" type="search" placeholder="  o que você deseja encontrar?" aria-label="Search" >
+          </form>
+          <li class="nav-item">
+            <button type="button" class="btn btn-login" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">E-mail:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">Nunca compartilharemos seu e-mail com mais ninguém.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Senha:</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">lembre-me</label>
+          </div>
+          <button type="submit" class="btn btn-primary">ok</button>
+        </form>
+    </div>
+  </div>
+</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <div class="top15"><h1><center>CONHEÇA</center></h1></div>
+
+  <hr style="color: aliceblue;"> -->
+
+  <!-- --------------FimMenu---------------------- -->
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imgs/20230624_143902.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Nosso Trabalho</h5>
+          <p>a Obrani visa divulgar obras(albuns) desconhecidos pela massa </p>
+        </div>
+      </div>
+      <!-- <div class="carousel-item">
+        <img src="imgs/GUITARRA.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div> -->
+      <br>
+    
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </button>
+  </div>
+  <br>
+  <br>
+<!--------------galeria---------------------- -->
+<div class="top15"><h1><center>BANDAS INFLUENTES</center></h1></div>
+<br>
+<!-- Carousel wrapper -->
+<div
+  id="carouselMultiItemExample"
+  class="carousel slide carousel-dark text-center"
+  data-mdb-ride="carousel"
+>
+  <!-- Inner -->
+  <div class="carousel-inner py-4">
+    <div class="carousel-item active">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img
+                src="imgs/BEATLES_CARD.jpg"
+                class="card-img-top"
+                alt="Waterfall"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BEATLES</h5>
+                <p class="card-text">
+                  Os Beatles foram uma banda de rock britânica formada em Liverpool,
+                  em 1960, e é hoje o grupo musical mais bem-sucedido
+                  e aclamado da história da música pop.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="imgs/ROLLINGSTONES_CARD.jpg"
+                class="card-img-top"
+                alt="Sunset Over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">ROLLING STONES</h5>
+                <p class="card-text">
+                  The Rolling Stones é uma banda de rock britânica
+                  formada em Londres no ano de 1962, considerada um dos maiores,
+                  mais antigos e mais bem sucedidos grupos musicais de todos os tempos.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 d-none d-lg-block">
+            <div class="card">
+              <img
+                src="imgs/PINKFLOYD_CARD.jpg"
+                class="card-img-top"
+                alt="Sunset over the Sea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">PINK FLOYD</h5>
+                <p class="card-text">
+                  Pink Floyd é uma banda inglesa de rock progressivo, originalmente
+                  formada em 1965. Mais tarde, o grupo se consagrou como o maior expoente do
+                  rock psicoldélico e progressivo da história.
+                </p>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<br>
+<br>
+<div class="top15"><h1><center>TOP 15 DISCOS</center></h1></div>
+<br>
+
+<div class="container-fluid text-center">
+         <div class="row">
+    <div class="col">
+      <img
+       src="imgs/sgt-pepper_1.webp" alt="" class="img-padrao"> 
+      <div>
+        <a class="nomeTop15">Sgt Pepper's Lonely Hearts Club Band</a>
+      </div>
+    </div>
+    <div class="col">
+        <img src="imgs/Wish_You_Were_Here.jpg" alt="" class="img-padrao">
+        <div>
+          <a class="nomeTop15">Wish You Were Here</a>
+        </div>
+    </div>
+    <div class="col">
+        <img src="imgs/In_the_Court_of_the_Crimson_King_-_40th_Anniversary_Box_Set_-_Front_cover.jpeg" alt="" class="img-padrao">
+        <div>
+          <a class="nomeTop15">In The Court Of The Crimson_King</a>
+        </div>
+    </div>
+    <div class="col">
+        <img src="imgs/Madvillainy_cover.png" alt="" class="img-padrao">
+        <div>
+          <a class="nomeTop15">Madvillainy</a>
+        </div>
+    </div>
+    <div class="col">
+    <img src="imgs/Dark_Side_of_the_Moon.png" alt="" class="img-padrao">
+    <div>
+      <a class="nomeTop15">The Dark Side of the Moon</a>
+    </div>
+    </div>
+  </div>
+  </div>
+<br>
+  <div class="container-fluid text-center">
+    <div class="row">
+<div class="col">
+ <img src="imgs/In_the_Aeroplane_Over_the_Sea_Capa.jpg" alt="" class="img-padrao">
+ <div>
+  <a class="nomeTop15">In the Aeroplane Over the Sea</a>
+</div>
+</div>
+<div class="col">
+   <img src="imgs/51Dhk-l6R9L._UF1000,1000_QL80_.jpg" alt="" class="img-padrao">
+   <div>
+    <a class="nomeTop15">My Beautiful Dark Twisted Fantasy</a>
+  </div>
+</div>
+<div class="col">
+   <img src="imgs/Okcomputer.jpg" alt="" class="img-padrao">
+   <div>
+    <a class="nomeTop15">OK Computer</a>
+  </div>
+</div>
+<div class="col">
+   <img src="imgs/Miles-davis-in-a-silent-way.jpg" alt="" class="img-padrao">
+   <div>
+    <a class="nomeTop15">Kind of </a>
+  </div>
+</div>
+<div class="col">
+<img src="imgs/Songs_in_the_Key_of_Life.jpg" alt="" class="img-padrao">
+<div>
+  <a class="nomeTop15">Songs in the Key of Life</a>
+</div>
+</div>
+</div>
+</div>
+<br>
+  <div class="container-fluid text-center">
+         <div class="row">
+    <div class="col">
+        <img src="imgs/AqueminiOutKast.jpg" alt="" class="img-padrao">
+        <div>
+          <a class="nomeTop15">Aquemini</a>
+        </div>
+    </div>
+    <div class="col">
+        <img src="imgs/PetSoundsCover.jpg" alt="" class="img-padrao">
+        <div>
+          <a class="nomeTop15">Petsounds</a>
+        </div>
+    </div>
+    <div class="col">
+        <img src="imgs/IllmaticNas.jpg" alt="" class="img-padrao">
+        <div>
+          <a class="nomeTop15">Illmatic</a>
+        </div>
+    </div>
+    <div class="col">
+        <img src="imgs/Let_It_Bleed.jpg" alt="" class="img-padrao">
+        <div>
+          <a class="nomeTop15">Let It Bleed</a>
+        </div>
+    </div>
+    <div class="col">
+        <img src="imgs/812EgYpATnL._UF1000,1000_QL80_.jpg" alt="" class="img-padrao">
+        <div>
+          <a class="nomeTop15">Off the Wall</a>
+        </div>
+    </div>
+  <div class="row">
+    </div>
+  </div>
+  </div>
+
+<!-- --------------fimGaleria---------------------- -->
+
+<!-- --------------TABELA---------------------- -->
+<br>
+<br>
+
+  <div id="top5" class="top15"><h1><center>GENEROS</center></h1></div>
+<br>
+<br>
+<table class="table table-dark table-borderless table bg-warning"> 
+    <!-- <thead>
+      <tr>
+        <th scope="col">lugar</th>
+        <th scope="col">álbum</th>
+        <th scope="col">banda</th>
+        <th scope="col">ano</th>
+      </tr>
+    </thead> -->
+    <tbody class="tbody">
+      <tr>
+       
+        <td>Jazz</td>
+        <td>Hip-Hop</td>
+        <td>MPB</td>
+        <td>Ópera</td>
+      </tr>
+      <tr>
+        
+        <td>Blues</td>
+        <td>Clássico</td>
+        <td>Samba</td>
+        <td>Forró</td>
+      </tr>
+      <tr>
+        
+        <td>Bossa Nova</td>
+        <td>POP</td>
+        <td>Eletrônica</td>
+        <td>Rock</td>
+      </tr>
+      <tr>
+        <td>Reggae</td>
+        <td>Country</td>
+        <td>Gospel</td>
+        <td>Rap</td>
+      </tr>
+    </tbody>
+  </table>
+<!-- --------------fimTABELA---------------------- -->
+
+
+
+<!-- Carousel wrapper -->
+<div
+  id="carouselMultiItemExample"
+  class="carousel slide carousel-dark text-center"
+  data-mdb-ride="carousel"
+>
+  
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/BXSleq9lkiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+  <footer class="text-center text-white" style="background-color: #0b0a0d;">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Images -->
+      <section class="">
+        <section class="mb-4">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/HT1EEn1ILHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <div>
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+    
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+    
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i class="fab fa-google"></i></a>
+    
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+    
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+       
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i class="fab fa-github"></i></a>
+          </div>
+
+        </section>
+        <div class="row">
+          <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+            <div
+              class="bg-image hover-overlay ripple shadow-1-strong rounded"
+              data-ripple-color="light"
+            >  
+            </div>
+          </div>
+        </div>
+      </section>
+      
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">EEEP Amélia Figueiredo de Lavor 
+      </a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+<!-- Footer -->
+    <script src="s.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

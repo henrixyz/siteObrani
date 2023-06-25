@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.navbar{
+    background-color: rgba(14, 13, 18, 0.897) !important;
+}
+
+
+.navbar-brand{
+    color:rgb(255, 255, 255)
+}
+
+.btn btn-login{
+    background: #FFCC33; /* amarelo */
+    /* border: 5px solid #39b0ff; borda branca em volta */
+    margin: auto; /* centraliza com bordas automáticas nas laterais */
+    text-align: center; /* centraliza o texto */
+    padding: 6px 0px 6px 0px; /* espaços top right bottom left */
+    font-family: Source Sans Pro; /* fonte */
+    font-size: 16px;  /* tamanho da fonte */
+    color: #4D4D4F; /* cor fonte */ 
+}
+
+.iconObrani{
+    height: 80px;
+    height: 80px;
+}
+.collapse navbar-collapse{
+    color: aliceblue;
+}
+
+.abaPesquisar{
+    width: 100vh;
+    border-radius: 300px;
+    border:1px solid #bdb7b7;
+    outline:none; 
+}
+.carousel-inner{
+    height: 90vh;
+}
+.d-block w-100{
+    width: 1080vh;
+    height: 720vh;
+    filter: opacity(25%);
+}
+
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 999;
+        font-size: 18px;
+        border: solid;
+        outline: none;
+    
+        color: rgb(225, 94, 0);
+        cursor: pointer;
+  
+        border-radius: 100px;
+      }
+      
+      #myBtn:hover {
+        background-color: #555;
+
+}
+.carousel-item :active{
+    filter: saturate(100%);
+}
+
+.top15{
+    color: rgba(241, 241, 241, 0.582);
+}
+
+.img-padrao {
+    width: 35vh;
+    height: 35vh;
+    padding: 40px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.img-padrao:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.nomeTop15{
+    color: rgb(219, 238, 255);
+    text-decoration: none !important;
+}
+
+th {
+    padding: .7em;
+    margin: 0;
+    /*border: 1px solid #ccc;*/
+    text-align: center;
+  }
+  
+
+td{
+    font-weight:bold;
+    /*background-color: #EEE;*/
+  }
+  
+table{
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    text-align: center;
+  }
+
+.flex-container {
+    flex-flow: center;
+  }
+
